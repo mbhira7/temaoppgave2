@@ -1,0 +1,130 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 133, 133);
+}
+
+img {
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:60px;
+}
+
+main {
+    margin-top:50px;
+    position: relative;
+    width: 700px;
+    height: 600px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: rgb(192, 177, 146) 15px solid;
+    border-radius: 2px;
+}
+
+main div {
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    background-color: black;
+    color:white;
+    font-size:20px;
+}
+
+
+main #tolv{
+    position: absolute;
+    top:-17px;
+    left:340px;
+    color:rgb(143, 133, 133);
+    font-size:22px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main #tre{
+    position: absolute;
+    top:257px;
+    left:616px;
+    color: rgb(143, 133, 133);
+    font-size:24px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main #seks{
+    position: absolute;
+    top:534px;
+    left:345px;
+    color: rgb(143, 133, 133);;
+    font-size:22px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main #ni{
+    position: absolute;
+    top:257px;
+    left:72px;
+    color: rgb(143, 133, 133);
+    font-size:22px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#minuttviser {
+    position: absolute;
+    width: 6px;
+    height: 195px;
+    background-color: black;
+    bottom: 51%;
+    transform-origin: center bottom;
+    border-radius: 6px;
+    transform: rotate(180deg);
+}
+
+#timeviser {
+    position: absolute;
+    left:348px;
+    width: 7.5px;
+    height: 155px;
+    background-color: black;
+    bottom: 51%;
+    transform-origin: center bottom;
+    border-radius: 6px;
+    transform: rotate(290deg);
+}
+
+#sekundviser {
+    position: absolute;
+    width: 3px;
+    height: 224px;
+    background-color: black;
+    bottom: 51%;
+    transform-origin: center bottom;
+    border-radius: 6px;
+    transform: rotate(340deg);
+}
+
+svg {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 350px; 
+}
+
+circle {
+    stroke:rgb(8, 8, 8);
+    stroke-width:3;
+    fill:black;
+    position: absolute;
+}
+
+#digitalklokke {
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 56px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
